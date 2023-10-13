@@ -1,13 +1,13 @@
 import React from "react";
-import App from "../App";
+
 
 const Header = () => {
     return (
         <div>
-            <a href='#s'>Home</a>
-            <a href='#s'>New feed</a>
-            <a href='#s'>New feed</a>
-            <a href='#s'>Messages</a>
+            <a href='#s'>Home</a> -
+            <a href='#s'>New feed</a> -
+            <a href='#s'>New feed</a> -
+            <a href='#s'>Messages</a> -
         </div>
     )
         ;
