@@ -1,16 +1,9 @@
-import React from "react";
+import React from 'react';
 
-
-const Header = () => {
+export const Header = () => {
     return (
-        <div>
-            <a href='#s'>Home</a> -
-            <a href='#s'>New feed</a> -
-            <a href='#s'>New feed</a> -
-            <a href='#s'>Messages</a> -
-        </div>
-    )
-        ;
+        <header className='header'>
+            <img src='https://cdn-icons-png.flaticon.com/512/4313/4313375.png' />
+        </header>
+    );
 }
-
-export default Header;
