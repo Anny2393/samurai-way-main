@@ -3,6 +3,7 @@ import style from './Post.module.css';
 
 type PostPropsType = {
     message: string
+    like: string
 }
 
 export const Post = (props: PostPropsType) => {
@@ -10,7 +11,7 @@ export const Post = (props: PostPropsType) => {
         <img src='https://animals.pibig.info/uploads/posts/2023-04/1681195047_animals-pibig-info-p-kotik-s-ulibkoi-zhivotnie-instagram-1.jpg'/>
         {props.message}
         <div>
-            <span>like</span>
+            <span>like {props.like} </span>
         </div>
     </div>
 }
