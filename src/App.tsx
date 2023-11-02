@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./Components/Header";
-import {Navbar} from "./Components/Navbar";
-import {Profile} from "./Components/Profile";
+import {Header} from "./Components/Header/Header";
+import {Navbar} from "./Components/Navbar/Navbar";
+import {MyPosts} from "./Components/Profile/MyPosts/MyPosts";
+import {Profile} from "./Components/Profile/MyPosts/Profile";
 
 const App = () => {
     return (
